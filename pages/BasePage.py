@@ -1,11 +1,10 @@
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
-
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
-from config.config import TestData
 from config import config
 from selenium.common.exceptions import TimeoutException
+import json
 
 
 @pytest.mark.usefixture('browser')
@@ -66,8 +65,3 @@ class BasePage:
     @staticmethod
     def formating_list(lists):
         return [float(s.lstrip("$")) for s in lists]
-
-    def create_dictionary(self,by_locator,):
-        pass
-
-

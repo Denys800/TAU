@@ -10,7 +10,7 @@ def pytest_addoption(parser):
     parser.addoption("--options", default='gui')
 
 
-@pytest.fixture
+@pytest.fixture(scope='class')
 def path_to_driver(request):
     if request.config.getoption('browser_name') == 'chrome':
         return ChromeDriverManager().install()
@@ -18,7 +18,7 @@ def path_to_driver(request):
         return GeckoDriverManager().install()
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture(scope='class')
 def browser(request, path_to_driver):
     browser_name = request.config.getoption('browser_name')
     if browser_name == 'chrome':
