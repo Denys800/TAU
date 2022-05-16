@@ -9,14 +9,17 @@ from selenium.common.exceptions import TimeoutException
 
 
 @pytest.mark.usefixture('browser')
-class BasePage(TestData):
+class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.base_url = self.BASE_URL
+        self.driver.get(config.TestData.BASE_URL)
 
-    def go_to_site(self):
-        return self.driver.get(self.base_url)
+    """"def go_to_site(self):
+        return self.driver.get(self.base_url)"""""
+
+    def get_current_url(self):
+        return self.driver.current_url
 
     def find_element(self, by_locator, time=config.TestData.EXPLICITLY_TIME):
         try:
@@ -50,8 +53,11 @@ class BasePage(TestData):
         return element.text
 
     def element_is_visible(self, by_locator, time=config.TestData.EXPLICITLY_TIME):
-        element = WebDriverWait(self.driver, time).until(EC.visibility_of_element_located(by_locator))
-        return element.is_displayed()
+        try:
+            element = WebDriverWait(self.driver, time).until(EC.visibility_of_element_located(by_locator))
+            return element.is_displayed()
+        except TimeoutException:
+            print(f'element is not visible on the page{by_locator}')
 
     def dropdown_select(self, by_locator, value):
         dropdown = Select(self.find_element(by_locator))
@@ -60,4 +66,8 @@ class BasePage(TestData):
     @staticmethod
     def formating_list(lists):
         return [float(s.lstrip("$")) for s in lists]
+
+    def create_dictionary(self,by_locator,):
+        pass
+
 

@@ -15,7 +15,6 @@ from config import config
                          )
 def test_login_with_wrong_credentials(browser, user_name, password, error_message):
     login_page = LoginPage(browser)
-    login_page.go_to_site()
     login_page.set_user_name(login=user_name)
     login_page.set_user_password(password=password)
     login_page.click_login_button()
@@ -29,7 +28,6 @@ def test_login_logout(browser):
     USER_NAME = config.TestData.USER_NAME
     PASSWORD = config.TestData.PASSWORD
 
-    login_page.go_to_site()
     login_page.set_user_name(login=USER_NAME)
     login_page.set_user_password(password=PASSWORD)
     login_page.click_login_button()
@@ -37,8 +35,3 @@ def test_login_logout(browser):
     assert main_page.verify_visibility_of_cart() == True
     main_page.logout_user()
     assert login_page.visibility_of_login_form()
-
-
-
-
-
