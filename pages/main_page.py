@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from pages.BasePage import BasePage
 
 
-# cart
+
 class MainPage(BasePage):
     CART = (By.XPATH, '//a[@class="shopping_cart_link"]')
     MAIN_MENU_ICON = (By.ID, 'react-burger-menu-btn')
@@ -13,6 +13,9 @@ class MainPage(BasePage):
     DROP_DOWN = (By.XPATH, "//select[@class='product_sort_container']")
     PRICE_OF_PRODUCT = (By.XPATH, "//div[@class='inventory_item_price']")
     NAME_OF_PRODUCT = (By.XPATH, "//div[@class='inventory_item_name']")
+
+    ADD_TO_CART_BUTTON =(By.XPATH, "//button[@id='add-to-cart-sauce-labs-backpack']")
+    REMOVE_ITEM_BUTTON = (By.XPATH, "//button[text()='Remove']")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -68,3 +71,17 @@ class MainPage(BasePage):
         names_of_product = self.find_elements(self.NAME_OF_PRODUCT)
         not_sorted_names_list = [name.text for name in names_of_product]
         return not_sorted_names_list
+
+    def click_add_to_cart_button(self):
+        self.click_element(self.ADD_TO_CART_BUTTON)
+
+    def visibility_of_add_to_cart_button(self):
+        remove_button = self.element_is_visible(self.ADD_TO_CART_BUTTON)
+        return bool(remove_button)
+
+    def click_remove_item_button(self):
+        self.click_element(self.REMOVE_ITEM_BUTTON)
+
+    def visibility_of_remove_button(self):
+        remove_button = self.element_is_visible(self.REMOVE_ITEM_BUTTON)
+        return bool(remove_button)

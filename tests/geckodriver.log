@@ -212,3 +212,508 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 1652168914839	Marionette	INFO	Stopped listening on port 52776
 JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1652258410743	geckodriver	INFO	Listening on 127.0.0.1:51653
+1652258411172	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51654" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilepVhuTR"
+*** You are running in headless mode.
+2022-05-11 11:40:11.623 plugin-container[29535:172893877] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:11.624 plugin-container[29535:172893877] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258411630	Marionette	INFO	Marionette enabled
+2022-05-11 11:40:11.673 plugin-container[29535:172893877] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:11.673 plugin-container[29535:172893877] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:11.673 plugin-container[29535:172893881] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:11.673 plugin-container[29535:172893881] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilepVhuTR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51654/devtools/browser/1b63544b-45ec-408f-ad1a-a06c07e3c8b8
+1652258412875	Marionette	INFO	Listening on port 51667
+Read port: 51667
+1652258412931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1652258413767	Marionette	INFO	Stopped listening on port 51667
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258414675	geckodriver	INFO	Listening on 127.0.0.1:51676
+1652258415083	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51677" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilePFzsGI"
+*** You are running in headless mode.
+2022-05-11 11:40:15.464 plugin-container[29547:172894234] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:15.465 plugin-container[29547:172894234] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:15.471 plugin-container[29547:172894234] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:15.471 plugin-container[29547:172894234] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:15.471 plugin-container[29547:172894236] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:15.471 plugin-container[29547:172894236] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258415475	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilePFzsGI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51677/devtools/browser/818ca73c-4345-4adb-b19b-ade8a8daef06
+1652258416557	Marionette	INFO	Listening on port 51690
+Read port: 51690
+1652258416635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1652258417367	Marionette	INFO	Stopped listening on port 51690
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258418300	geckodriver	INFO	Listening on 127.0.0.1:51699
+1652258418699	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51700" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileoBqwOC"
+*** You are running in headless mode.
+1652258419174	Marionette	INFO	Marionette enabled
+2022-05-11 11:40:19.195 plugin-container[29559:172894520] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:19.196 plugin-container[29559:172894520] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:19.214 plugin-container[29559:172894520] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:19.214 plugin-container[29559:172894520] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:19.215 plugin-container[29559:172894561] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:19.215 plugin-container[29559:172894561] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileoBqwOC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51700/devtools/browser/e5eb7684-2c7b-4b0e-8c76-98fe624b1b80
+1652258420359	Marionette	INFO	Listening on port 51713
+Read port: 51713
+1652258420458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1652258421184	Marionette	INFO	Stopped listening on port 51713
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258422124	geckodriver	INFO	Listening on 127.0.0.1:51723
+1652258422530	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51724" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileHj42Ev"
+*** You are running in headless mode.
+2022-05-11 11:40:22.904 plugin-container[29574:172894832] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:22.905 plugin-container[29574:172894832] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:22.909 plugin-container[29574:172894832] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:22.909 plugin-container[29574:172894832] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:22.910 plugin-container[29574:172894840] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:22.910 plugin-container[29574:172894840] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258422919	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileHj42Ev/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51724/devtools/browser/ae0a2c5a-eacd-48b2-a3b4-347c2d31ccfb
+1652258424010	Marionette	INFO	Listening on port 51737
+Read port: 51737
+1652258424080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258426336	Marionette	INFO	Stopped listening on port 51737
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258427272	geckodriver	INFO	Listening on 127.0.0.1:51756
+1652258427679	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51757" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileGK1QK0"
+*** You are running in headless mode.
+2022-05-11 11:40:28.046 plugin-container[29587:172895138] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:28.047 plugin-container[29587:172895138] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:28.051 plugin-container[29587:172895138] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:28.052 plugin-container[29587:172895138] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:28.052 plugin-container[29587:172895146] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:28.052 plugin-container[29587:172895146] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258428063	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileGK1QK0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51757/devtools/browser/8623e015-3ec5-46c9-a7a7-a74b597916c0
+1652258429071	Marionette	INFO	Listening on port 51770
+Read port: 51770
+1652258429132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258432189	Marionette	INFO	Stopped listening on port 51770
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258433160	geckodriver	INFO	Listening on 127.0.0.1:51794
+1652258433573	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51795" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileKivuc6"
+*** You are running in headless mode.
+2022-05-11 11:40:33.924 plugin-container[29599:172895435] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:33.925 plugin-container[29599:172895435] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:33.931 plugin-container[29599:172895435] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:33.931 plugin-container[29599:172895435] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:33.931 plugin-container[29599:172895440] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:33.931 plugin-container[29599:172895440] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258433939	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileKivuc6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51795/devtools/browser/001c8c8e-4b3e-4db9-9234-71b46687031e
+1652258435124	Marionette	INFO	Listening on port 51809
+Read port: 51809
+1652258435237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258436091	Marionette	INFO	Stopped listening on port 51809
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258437008	geckodriver	INFO	Listening on 127.0.0.1:51820
+1652258437424	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51821" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileHPHfF4"
+*** You are running in headless mode.
+2022-05-11 11:40:37.764 plugin-container[29611:172895733] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:37.765 plugin-container[29611:172895733] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:37.769 plugin-container[29611:172895733] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:37.769 plugin-container[29611:172895733] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:37.770 plugin-container[29611:172895740] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:37.770 plugin-container[29611:172895740] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258437780	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileHPHfF4/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51821/devtools/browser/4e634c64-1a93-469e-b00f-3fa91cec484d
+1652258438780	Marionette	INFO	Listening on port 51834
+Read port: 51834
+1652258438867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258443588	Marionette	INFO	Stopped listening on port 51834
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258444520	geckodriver	INFO	Listening on 127.0.0.1:51858
+1652258444930	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51859" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileCtmaUn"
+*** You are running in headless mode.
+2022-05-11 11:40:45.269 plugin-container[29638:172896168] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:45.270 plugin-container[29638:172896168] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:45.274 plugin-container[29638:172896168] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:45.274 plugin-container[29638:172896168] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:45.274 plugin-container[29638:172896176] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:45.274 plugin-container[29638:172896176] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258445283	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileCtmaUn/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51859/devtools/browser/c7f9d51a-d28e-4d5f-bd6e-1f7a7ff1c1ff
+1652258446223	Marionette	INFO	Listening on port 51872
+Read port: 51872
+1652258446282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258447832	Marionette	INFO	Stopped listening on port 51872
+1652258448783	geckodriver	INFO	Listening on 127.0.0.1:51885
+1652258449187	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51886" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilejnUnpo"
+*** You are running in headless mode.
+2022-05-11 11:40:49.575 plugin-container[29650:172896462] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:49.575 plugin-container[29650:172896462] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:49.581 plugin-container[29650:172896462] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:49.581 plugin-container[29650:172896462] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:49.581 plugin-container[29650:172896460] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:49.581 plugin-container[29650:172896460] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258449590	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilejnUnpo/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51886/devtools/browser/0a6ff0e4-147b-4b9e-99a7-b8d8178dc208
+1652258450676	Marionette	INFO	Listening on port 51899
+Read port: 51899
+1652258450750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258452342	Marionette	INFO	Stopped listening on port 51899
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652258453258	geckodriver	INFO	Listening on 127.0.0.1:51911
+1652258453674	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51912" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileRDzIFP"
+*** You are running in headless mode.
+2022-05-11 11:40:54.022 plugin-container[29662:172896769] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:54.023 plugin-container[29662:172896769] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:54.027 plugin-container[29662:172896769] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:54.027 plugin-container[29662:172896769] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 11:40:54.028 plugin-container[29662:172896771] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 11:40:54.028 plugin-container[29662:172896771] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652258454037	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileRDzIFP/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51912/devtools/browser/0b7ffcda-dd2c-4e3e-98fa-99dc6597266a
+1652258455055	Marionette	INFO	Listening on port 51925
+Read port: 51925
+1652258455119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652258461136	Marionette	INFO	Stopped listening on port 51925
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274234502	geckodriver	INFO	Listening on 127.0.0.1:55849
+1652274234847	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "55850" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileV9EePj"
+*** You are running in headless mode.
+2022-05-11 16:03:55.251 plugin-container[36168:174461575] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:03:55.251 plugin-container[36168:174461575] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:03:55.256 plugin-container[36168:174461575] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:03:55.256 plugin-container[36168:174461575] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:03:55.257 plugin-container[36168:174461577] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:03:55.257 plugin-container[36168:174461577] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274235266	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileV9EePj/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55850/devtools/browser/1be113b0-77bf-4a95-80e6-56e0a6dd1fe1
+1652274236343	Marionette	INFO	Listening on port 55864
+Read port: 55864
+1652274236407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274237366	Marionette	INFO	Stopped listening on port 55864
+1652274238286	geckodriver	INFO	Listening on 127.0.0.1:55874
+1652274238700	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "55875" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilehpFdbN"
+*** You are running in headless mode.
+2022-05-11 16:03:59.039 plugin-container[36180:174461912] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:03:59.039 plugin-container[36180:174461912] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:03:59.043 plugin-container[36180:174461912] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:03:59.044 plugin-container[36180:174461912] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:03:59.044 plugin-container[36180:174461914] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:03:59.044 plugin-container[36180:174461914] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274239054	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofilehpFdbN/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55875/devtools/browser/a1233aec-4729-43c6-82b2-57875e6bb761
+1652274240043	Marionette	INFO	Listening on port 55888
+Read port: 55888
+1652274240146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1652274240921	Marionette	INFO	Stopped listening on port 55888
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274241805	geckodriver	INFO	Listening on 127.0.0.1:55899
+1652274242220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "55900" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileLY5Kjf"
+*** You are running in headless mode.
+2022-05-11 16:04:02.564 plugin-container[36192:174462201] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:02.565 plugin-container[36192:174462201] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:02.569 plugin-container[36192:174462201] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:02.569 plugin-container[36192:174462201] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:02.569 plugin-container[36192:174462199] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:02.569 plugin-container[36192:174462199] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274242579	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileLY5Kjf/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55900/devtools/browser/fe9405db-7794-465c-9340-72c0a84d0721
+1652274243622	Marionette	INFO	Listening on port 55913
+Read port: 55913
+1652274243670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1652274244383	Marionette	INFO	Stopped listening on port 55913
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274245284	geckodriver	INFO	Listening on 127.0.0.1:55923
+1652274245695	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "55924" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofiletMBaN7"
+*** You are running in headless mode.
+2022-05-11 16:04:06.031 plugin-container[36204:174462485] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:06.032 plugin-container[36204:174462485] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:06.036 plugin-container[36204:174462485] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:06.036 plugin-container[36204:174462485] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:06.036 plugin-container[36204:174462488] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:06.036 plugin-container[36204:174462488] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274246046	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofiletMBaN7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55924/devtools/browser/f7b17f6b-f4f9-41e0-8bfc-15773d49bd39
+1652274247080	Marionette	INFO	Listening on port 55938
+Read port: 55938
+1652274247142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1652274247871	Marionette	INFO	Stopped listening on port 55938
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274248781	geckodriver	INFO	Listening on 127.0.0.1:55945
+1652274249197	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "55946" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileEgwc6v"
+*** You are running in headless mode.
+2022-05-11 16:04:09.537 plugin-container[36216:174462783] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:09.537 plugin-container[36216:174462783] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:09.542 plugin-container[36216:174462783] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:09.542 plugin-container[36216:174462783] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:09.542 plugin-container[36216:174462789] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:09.542 plugin-container[36216:174462789] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274249552	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileEgwc6v/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55946/devtools/browser/e728c3b8-ea78-4dd4-b510-293f7ce26947
+1652274250545	Marionette	INFO	Listening on port 55959
+Read port: 55959
+1652274250643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274252885	Marionette	INFO	Stopped listening on port 55959
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274253818	geckodriver	INFO	Listening on 127.0.0.1:55977
+1652274254239	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "55978" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileYAuEB5"
+*** You are running in headless mode.
+2022-05-11 16:04:14.579 plugin-container[36228:174463106] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:14.579 plugin-container[36228:174463106] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:14.583 plugin-container[36228:174463106] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:14.583 plugin-container[36228:174463106] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:14.584 plugin-container[36228:174463108] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:14.584 plugin-container[36228:174463108] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274254593	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileYAuEB5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55978/devtools/browser/cb3f8cd7-8530-4d82-909e-6b31c2a97420
+1652274255603	Marionette	INFO	Listening on port 55994
+Read port: 55994
+1652274255695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274258698	Marionette	INFO	Stopped listening on port 55994
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274259596	geckodriver	INFO	Listening on 127.0.0.1:56016
+1652274260010	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "56017" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileqJM6yz"
+*** You are running in headless mode.
+2022-05-11 16:04:20.348 plugin-container[36243:174463442] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:20.349 plugin-container[36243:174463442] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:20.353 plugin-container[36243:174463442] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:20.354 plugin-container[36243:174463442] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:20.354 plugin-container[36243:174463444] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:20.354 plugin-container[36243:174463444] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274260364	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileqJM6yz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56017/devtools/browser/807e9271-003b-40eb-918b-de668589ed81
+1652274261355	Marionette	INFO	Listening on port 56031
+Read port: 56031
+1652274261460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274262364	Marionette	INFO	Stopped listening on port 56031
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274263270	geckodriver	INFO	Listening on 127.0.0.1:56040
+1652274263688	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "56041" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofile9eI6kg"
+*** You are running in headless mode.
+2022-05-11 16:04:24.029 plugin-container[36256:174463739] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:24.030 plugin-container[36256:174463739] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:24.034 plugin-container[36256:174463739] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:24.034 plugin-container[36256:174463739] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:24.035 plugin-container[36256:174463736] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:24.035 plugin-container[36256:174463736] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274264042	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofile9eI6kg/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56041/devtools/browser/3f9ba70a-0cd4-4175-8b04-c2c93a4ae841
+1652274265007	Marionette	INFO	Listening on port 56054
+Read port: 56054
+1652274265033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274269714	Marionette	INFO	Stopped listening on port 56054
+1652274270613	geckodriver	INFO	Listening on 127.0.0.1:56077
+1652274271029	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "56078" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileHbyADa"
+*** You are running in headless mode.
+2022-05-11 16:04:31.370 plugin-container[36269:174464100] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:31.371 plugin-container[36269:174464100] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:31.375 plugin-container[36269:174464100] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:31.375 plugin-container[36269:174464100] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:31.376 plugin-container[36269:174464107] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:31.376 plugin-container[36269:174464107] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274271385	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileHbyADa/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56078/devtools/browser/17634a7c-6b88-4943-8568-304ef016761c
+1652274272371	Marionette	INFO	Listening on port 56091
+Read port: 56091
+1652274272485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274273975	Marionette	INFO	Stopped listening on port 56091
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274274885	geckodriver	INFO	Listening on 127.0.0.1:56103
+1652274275302	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "56104" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileWvncNR"
+*** You are running in headless mode.
+2022-05-11 16:04:35.642 plugin-container[36281:174464382] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:35.642 plugin-container[36281:174464382] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:35.646 plugin-container[36281:174464382] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:35.646 plugin-container[36281:174464382] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:35.647 plugin-container[36281:174464390] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:35.647 plugin-container[36281:174464390] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274275656	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileWvncNR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56104/devtools/browser/bf246d59-cf12-4c5c-945a-c8d85ea6b511
+1652274276647	Marionette	INFO	Listening on port 56118
+Read port: 56118
+1652274276753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274278236	Marionette	INFO	Stopped listening on port 56118
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652274279125	geckodriver	INFO	Listening on 127.0.0.1:56130
+1652274279545	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "56131" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileFrkNSZ"
+*** You are running in headless mode.
+2022-05-11 16:04:39.888 plugin-container[36293:174464701] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:39.888 plugin-container[36293:174464701] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:39.892 plugin-container[36293:174464701] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:39.892 plugin-container[36293:174464701] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-11 16:04:39.893 plugin-container[36293:174464709] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-11 16:04:39.893 plugin-container[36293:174464709] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652274279903	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/90/cmjfwtwn19b9211pch6dm_y941kk5v/T/rust_mozprofileFrkNSZ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56131/devtools/browser/1ebd259a-a65f-4503-a4f7-c59be3052e08
+1652274280924	Marionette	INFO	Listening on port 56144
+Read port: 56144
+1652274281005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652274282224	Marionette	INFO	Stopped listening on port 56144
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

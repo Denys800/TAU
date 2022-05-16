@@ -32,3 +32,4 @@ def browser(request, path_to_driver):
         driver = webdriver.Firefox(executable_path=path_to_driver, options=firefox_option)
     yield driver
     driver.quit()
+
