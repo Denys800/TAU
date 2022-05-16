@@ -1,7 +1,7 @@
-# here we describe main page
+
+import json
 from selenium.webdriver.common.by import By
 from pages.BasePage import BasePage
-
 
 
 class MainPage(BasePage):
@@ -14,8 +14,10 @@ class MainPage(BasePage):
     PRICE_OF_PRODUCT = (By.XPATH, "//div[@class='inventory_item_price']")
     NAME_OF_PRODUCT = (By.XPATH, "//div[@class='inventory_item_name']")
 
-    ADD_TO_CART_BUTTON =(By.XPATH, "//button[@id='add-to-cart-sauce-labs-backpack']")
+    ADD_TO_CART_BUTTON = (By.XPATH, "//button[@id='add-to-cart-sauce-labs-backpack']")
     REMOVE_ITEM_BUTTON = (By.XPATH, "//button[text()='Remove']")
+
+    MAIN_P = (By.XPATH, "//div[@class = 'inventory_item']")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -85,3 +87,35 @@ class MainPage(BasePage):
     def visibility_of_remove_button(self):
         remove_button = self.element_is_visible(self.REMOVE_ITEM_BUTTON)
         return bool(remove_button)
+
+    # ------------------------------------------------------------------------------------------------------------------
+    with open("data.json", "w") as f:
+        json.dump([], f)
+
+    def write_json(self, new_data, filename='data.json'):
+        with open(filename, 'r+') as file:
+            # First we load existing data into a dict.
+            file_data = json.load(file)
+            # Join new_data with file_data inside emp_details
+            file_data.append(new_data)
+            # Sets file's current position at offset.
+            file.seek(0)
+            # convert back to json.
+            json.dump(file_data, file, indent=4)
+
+    def producrts_to_json(self):
+        items = self.find_elements(self.MAIN_P)
+        for item in items:
+            name = item.find_element(By.CLASS_NAME, "inventory_item_name").text
+            price = item.find_element(By.CLASS_NAME, "inventory_item_price").text
+            description = item.find_element(By.CLASS_NAME, "inventory_item_desc").text
+            print("Name: " + name)
+            print("Price: " + price)
+            print("Description:" + description)
+
+            self.write_json({
+                "name": name,
+                "price": price,
+                "description": description
+
+            })

@@ -14,7 +14,7 @@ class LoginPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-        #self.driver.get(self.base_url)
+        # self.driver.get(self.base_url)
 
     def log_in_user(self, login, password):
         self.set_user_name(login)
@@ -40,4 +40,3 @@ class LoginPage(BasePage):
     def get_error_text(self):
         error_message = self.get_text(self.ERROR_MESSAGE)
         return error_message
-
